@@ -1,0 +1,141 @@
+﻿@model IEnumerable<Domain.Core.Subdivision>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавление метки с собственным изображением</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=d447586a-9f1f-48da-86e2-747c9b409cce" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+
+        var myGeoObjects = [],
+            coords = [
+                [56.023, 36.988],
+                [56.025, 36.981],
+                [56.020, 36.981],
+                [56.021, 36.983],
+                [56.027, 36.987]
+            ],
+            myMap,
+            myClusterer;
+        for (var i = 0; i < 1; i++) {
+            coords.push([56.025, 36.981]);
+        }
+         ymaps.ready(function() {
+            var myMap = new ymaps.Map('map', {
+                center: [53.35847766288347, 30.95296268843207],
+                zoom: 6
+            }, {
+                searchControlProvider: 'yandex#search'
+            })
+            // Создаём макет содержимого.
+            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+            ),
+
+                myClusterer = new ymaps.Clusterer();
+            for (var i = 0; i < coords.length; i++) {
+                myGeoObjects[i] = new ymaps.Placemark(
+                    coords[i]
+                );
+            }
+
+            myClusterer.add(myGeoObjects);
+            myMap.geoObjects.add(myClusterer);
+
+
+
+                myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                    hintContent: 'Собственный значок метки',
+                    balloonContent: 'Это красивая метка'
+                }, {
+                    // Опции.
+                    // Необходимо указать данный тип макета.
+                    iconLayout: 'default#image',
+                    // Своё изображение иконки метки.
+                    iconImageHref: '',
+                    // Размеры метки.
+                    iconImageSize: [30, 42],
+                    // Смещение левого верхнего угла иконки относительно
+                    // её "ножки" (точки привязки).
+                    iconImageOffset: [-5, -38]
+                }),
+
+                myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
+                    hintContent: 'Собственный значок метки с контентом',
+                    balloonContent: 'А эта — новогодняя',
+                    iconContent: '12'
+                }, {
+                    // Опции.
+                    // Необходимо указать данный тип макета.
+                    iconLayout: 'default#imageWithContent',
+                    // Своё изображение иконки метки.
+                    iconImageHref: '../Content/Icons/43-twitter-512.png',
+                    // Размеры метки.
+                    iconImageSize: [48, 48],
+                    // Смещение левого верхнего угла иконки относительно
+                    // её "ножки" (точки привязки).
+                    iconImageOffset: [-24, -24],
+                    // Смещение слоя с содержимым относительно слоя с картинкой.
+                    iconContentOffset: [15, 15],
+                    // Макет содержимого.
+                    iconContentLayout: MyIconContentLayout
+                });
+            myNewPlacemarkWithContent = new ymaps.Placemark([53.904669929994725, 27.578222029340242], {
+                hintContent: 'Собственный значок метки с контентом',
+                balloonContent: 'А эта — новогодняя',
+                iconContent: '12'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#imageWithContent',
+                // Своё изображение иконки метки.
+                iconImageHref: '../Content/Icons/43-twitter-512.png',
+                // Размеры метки.
+                iconImageSize: [48, 48],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-24, -24],
+                // Смещение слоя с содержимым относительно слоя с картинкой.
+                iconContentOffset: [15, 15],
+                // Макет содержимого.
+                iconContentLayout: MyIconContentLayout
+            });
+            var f =@Model.Count();
+
+
+
+            myMap.geoObjects
+                .add(myPlacemark)
+                .add(myPlacemarkWithContent)
+                .add(myNewPlacemarkWithContent);
+
+            @foreach (Domain.Core.Subdivision s in @Model)
+            {
+                Response.Write("<p>Командир: " + s.Commander +" Координаты:"+s.coord.X+" "+s.coord.Y+  "</p>");
+            }
+            Render_Map();
+        });
+    </script>
+
+   
+    <style>
+        html, body, #map {
+            width: 90%;
+            height: 90%;
+            padding: 0;
+            margin: 0;
+            margin: 2% 5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>

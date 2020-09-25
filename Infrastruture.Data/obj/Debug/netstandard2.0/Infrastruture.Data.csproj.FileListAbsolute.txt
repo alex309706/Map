@@ -1,0 +1,4 @@
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Infrastruture.Data\bin\Debug\netstandard2.0\Domain.Core.dll
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Infrastruture.Data\bin\Debug\netstandard2.0\Domain.Interfaces.dll
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastruture.Data.AssemblyInfoInputs.cache
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastruture.Data.AssemblyInfo.cs

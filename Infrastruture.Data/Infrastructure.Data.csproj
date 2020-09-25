@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="5.0.0-preview.1.20120.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.Core.csproj" />
+    <ProjectReference Include="..\Interfaces\Domain.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

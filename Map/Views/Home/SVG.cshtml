@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Domain.Core.Subdivision>
+<svg xmlns="http://www.w3.org/2000/svg" id="tooltip-svg" style="background-image:url(../../Content/Maps/Map.png);" width="1729" height="1275">
+</svg>
+
+@foreach (Domain.Core.Subdivision subdiv in Model)
+{
+    <script defer type="text/javascript">
+        var x_coord;
+        x_coord = @subdiv.coord.X;
+        var y_coord;
+        y_coord = @subdiv.coord.Y;
+        var location;
+        function Put_Designation(x,y)
+        {
+            var _x = +x;
+            var _y = +y;
+            var svgNS = "http://www.w3.org/2000/svg";
+            var sv = document.getElementById("tooltip-svg");
+            var type;
+            type = '@subdiv.GetType().ToString()';
+            var poly = document.createElementNS(svgNS, 'polygon');
+            var scale = 1;
+            if (type.includes('Army'))
+            {
+                poly.setAttribute("points", [_x, _y, _x + 10 * scale, _y + 10*scale, _x, _y + 10*scale, _x, y + 20*scale]);
+                poly.setAttribute("stroke", "red");
+                poly.setAttribute("fill", "white");
+            }
+
+            //Рисуем обозначение фронта/флота
+            poly.setAttribute("class", "tooltip-trigger");
+            poly.setAttribute("stroke-width", "3");
+            poly.setAttribute("Location", '@subdiv.Location');
+            poly.setAttribute("Name", ' @subdiv.Name');
+            poly.setAttribute("Composition", ' @subdiv.Composition');
+            poly.setAttribute("Strength", ' @subdiv.Strength');
+            poly.setAttribute("Document", ' @subdiv.Document');
+            poly.setAttribute("Commander", ' @subdiv.Commander');
+            sv.appendChild(poly);
+            document.body.append(sv);
+        }
+        Put_Designation(x_coord, y_coord);
+    </script>
+}
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script src="~/Scripts/Tooltip_Scripts/GroupAdding.js"></script>
+<script src="~/Scripts/Tooltip_Scripts/Tooltip.js"></script>

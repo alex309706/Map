@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Domain.Core.Subdivision>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Главная страница</title>
+
+</head>
+<body>
+    @Scripts.Render("~/Scripts/jquery-3.4.1.js")
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.min.js")
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    Дата
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Год
+                </td>
+                <td>
+                    <button id="year_decrease_button" onclick="Year_Decrease()">-</button><input id="year" />
+                    <button onclick=" Year_Increase()" id="year_increase_button">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Месяц
+                </td>
+                <td>
+                    <button onclick="Month_Decrease()" id="month_decrease_button">-</button><input id="month" />
+                    <button onclick="Month_Increase()" id="month_increase_button">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    День
+                </td>
+                <td>
+                    <button onclick="Day_Decrease()" id="day_decrease_button">-</button><input id="day" />
+                    <button onclick="Day_Increase()" id="day_increase_button">+</button>
+                </td>
+            </tr>
+        </table>
+
+
+
+    </div>
+    @{Html.RenderPartial("SVG", Model); }
+
+    <script src="~/Scripts/Year_Scrtips/Year_Functions.js"></script>
+    <script>
+        fetch('http://localhost:44377')
+            .then(response => response.json()) //эту строчку оставляешь
+            .then((yourCollection) => {
+                alert(yourCollection);
+            });
+    </script>
+    
+</body>
+</html>

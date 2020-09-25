@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "VLBtuDGwFkpkeRRHOHhtq+ACANfr51cHeh6G8QDooleoeyFVHR3u3/5iDBTOCaW0x3vjfSdYuWAqfYSjzaWELA==",
+  "success": true,
+  "projectFilePath": "E:\\Саша\\Начало\\Map\\Infrastruture.Data\\Infrastructure.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.1.20120.5\\microsoft.win32.registry.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0-preview.1.20120.5\\system.configuration.configurationmanager.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.data.oledb\\5.0.0-preview.1.20120.5\\system.data.oledb.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0-preview.1.20120.5\\system.diagnostics.performancecounter.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.accesscontrol\\5.0.0-preview.1.20120.5\\system.security.accesscontrol.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0-preview.1.20120.5\\system.security.cryptography.protecteddata.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.permissions\\5.0.0-preview.1.20120.5\\system.security.permissions.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.principal.windows\\5.0.0-preview.1.20120.5\\system.security.principal.windows.5.0.0-preview.1.20120.5.nupkg.sha512"
+  ],
+  "logs": []
+}

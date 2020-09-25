@@ -1,0 +1,11 @@
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\bin\Debug\netstandard2.0\Interfaces.deps.json
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\bin\Debug\netstandard2.0\Core.dll
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CopyComplete
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\obj\Debug\netstandard2.0\Interfaces.dll
+C:\Users\ZZZ\Desktop\Саша\Пробуем-с\Map\Interfaces\obj\Debug\netstandard2.0\Interfaces.pdb
