@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Саша\\Начало\\Map\\Infrastructure.Business\\Infrastructure.Business.csproj": {}
+    "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastructure.Business\\Infrastructure.Business.csproj": {}
   },
   "projects": {
-    "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj": {
+    "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj",
+        "projectUniqueName": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj",
+        "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj",
         "packagesPath": "C:\\Users\\ZZZ\\.nuget\\packages\\",
-        "outputPath": "E:\\Саша\\Начало\\Map\\Domain\\obj\\",
+        "outputPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -59,18 +59,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Саша\\Начало\\Map\\Infrastructure.Business\\Infrastructure.Business.csproj": {
+    "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastructure.Business\\Infrastructure.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Саша\\Начало\\Map\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "projectUniqueName": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastructure.Business\\Infrastructure.Business.csproj",
         "projectName": "Infrastructure.Business",
-        "projectPath": "E:\\Саша\\Начало\\Map\\Infrastructure.Business\\Infrastructure.Business.csproj",
+        "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastructure.Business\\Infrastructure.Business.csproj",
         "packagesPath": "C:\\Users\\ZZZ\\.nuget\\packages\\",
-        "outputPath": "E:\\Саша\\Начало\\Map\\Infrastructure.Business\\obj\\",
+        "outputPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastructure.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -90,11 +90,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj": {
-                "projectPath": "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj"
+              "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj": {
+                "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj"
               },
-              "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj"
+              "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj": {
+                "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj"
               }
             }
           }
@@ -125,18 +125,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj": {
+    "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj",
+        "projectUniqueName": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj",
         "projectName": "Domain.Interfaces",
-        "projectPath": "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj",
+        "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj",
         "packagesPath": "C:\\Users\\ZZZ\\.nuget\\packages\\",
-        "outputPath": "E:\\Саша\\Начало\\Map\\Interfaces\\obj\\",
+        "outputPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -156,8 +156,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj": {
-                "projectPath": "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj"
+              "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj": {
+                "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

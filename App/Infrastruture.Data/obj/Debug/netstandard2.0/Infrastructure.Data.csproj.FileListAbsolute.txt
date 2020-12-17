@@ -26,3 +26,17 @@ E:\Саша\Начало\Map\Infrastruture.Data\obj\Debug\netstandard2.0\Infrast
 E:\Саша\Начало\Map\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csproj.CopyComplete
 E:\Саша\Начало\Map\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.dll
 E:\Саша\Начало\Map\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Infrastructure.Data.deps.json
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Infrastructure.Data.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Infrastructure.Data.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Domain.Core.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Domain.Interfaces.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Domain.Core.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\bin\Debug\netstandard2.0\Domain.Interfaces.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csprojAssemblyReference.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.AssemblyInfoInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.AssemblyInfo.cs
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.csproj.CopyComplete
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastruture.Data\obj\Debug\netstandard2.0\Infrastructure.Data.pdb

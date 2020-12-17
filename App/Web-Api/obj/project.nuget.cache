@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "z/yq0CtqyV7KXz68totbgCuWnXVAyJB/ECNxukQ0v2IkdW3C0lM1y8VpTW4vql7X3zN9p0tlJ92VnUFCnEsOVA==",
+  "success": true,
+  "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Web-Api\\Web-Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.1.20120.5\\microsoft.netcore.platforms.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.1.20120.5\\microsoft.win32.registry.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0-preview.1.20120.5\\microsoft.win32.systemevents.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0-preview.1.20120.5\\system.configuration.configurationmanager.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.data.oledb\\5.0.0-preview.1.20120.5\\system.data.oledb.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0-preview.1.20120.5\\system.diagnostics.performancecounter.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.drawing.common\\5.0.0-preview.1.20120.5\\system.drawing.common.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.accesscontrol\\5.0.0-preview.1.20120.5\\system.security.accesscontrol.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0-preview.1.20120.5\\system.security.cryptography.protecteddata.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.permissions\\5.0.0-preview.1.20120.5\\system.security.permissions.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.security.principal.windows\\5.0.0-preview.1.20120.5\\system.security.principal.windows.5.0.0-preview.1.20120.5.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.windows.extensions\\5.0.0-preview.1.20120.5\\system.windows.extensions.5.0.0-preview.1.20120.5.nupkg.sha512"
+  ],
+  "logs": []
+}

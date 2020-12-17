@@ -16,3 +16,12 @@ E:\Саша\Начало\Map\Domain\obj\Debug\netstandard2.0\Domain.Core.Assembl
 E:\Саша\Начало\Map\Domain\obj\Debug\netstandard2.0\Domain.Core.AssemblyInfo.cs
 E:\Саша\Начало\Map\Domain\obj\Debug\netstandard2.0\Domain.Core.dll
 E:\Саша\Начало\Map\Domain\obj\Debug\netstandard2.0\Domain.Core.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\bin\Debug\netstandard2.0\Domain.Core.deps.json
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\bin\Debug\netstandard2.0\Domain.Core.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\bin\Debug\netstandard2.0\Domain.Core.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\obj\Debug\netstandard2.0\Domain.Core.csprojAssemblyReference.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\obj\Debug\netstandard2.0\Domain.Core.csproj.CoreCompileInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\obj\Debug\netstandard2.0\Domain.Core.AssemblyInfoInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\obj\Debug\netstandard2.0\Domain.Core.AssemblyInfo.cs
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\obj\Debug\netstandard2.0\Domain.Core.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Domain\obj\Debug\netstandard2.0\Domain.Core.pdb

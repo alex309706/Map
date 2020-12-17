@@ -34,6 +34,10 @@ namespace Map.Controllers
             subd = repo.GetSubdivisions();
             return View(subd);
         }
-
+        public JsonResult GetJson()
+        {
+            subd = repo.GetSubdivisions();
+            return Json(subd,JsonRequestBehavior.AllowGet);
+        }
     }
 }

@@ -25,3 +25,17 @@ E:\Саша\Начало\Map\Infrastructure.Business\obj\Debug\netstandard2.0\In
 E:\Саша\Начало\Map\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.csproj.CopyComplete
 E:\Саша\Начало\Map\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.dll
 E:\Саша\Начало\Map\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Infrastructure.Business.deps.json
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Infrastructure.Business.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Infrastructure.Business.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Domain.Core.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Domain.Interfaces.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Domain.Core.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\bin\Debug\netstandard2.0\Domain.Interfaces.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.csprojAssemblyReference.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.AssemblyInfoInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.AssemblyInfo.cs
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.csproj.CoreCompileInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.csproj.CopyComplete
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Infrastructure.Business\obj\Debug\netstandard2.0\Infrastructure.Business.pdb

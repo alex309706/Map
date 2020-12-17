@@ -827,11 +827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Саша\\Начало\\Map\\Infrastruture.Data\\Infrastructure.Data.csproj",
+      "projectUniqueName": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastruture.Data\\Infrastructure.Data.csproj",
       "projectName": "Infrastructure.Data",
-      "projectPath": "E:\\Саша\\Начало\\Map\\Infrastruture.Data\\Infrastructure.Data.csproj",
+      "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastruture.Data\\Infrastructure.Data.csproj",
       "packagesPath": "C:\\Users\\ZZZ\\.nuget\\packages\\",
-      "outputPath": "E:\\Саша\\Начало\\Map\\Infrastruture.Data\\obj\\",
+      "outputPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastruture.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -851,11 +851,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj": {
-              "projectPath": "E:\\Саша\\Начало\\Map\\Domain\\Domain.Core.csproj"
+            "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj": {
+              "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Domain\\Domain.Core.csproj"
             },
-            "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj": {
-              "projectPath": "E:\\Саша\\Начало\\Map\\Interfaces\\Domain.Interfaces.csproj"
+            "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj": {
+              "projectPath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj"
             }
           }
         }
@@ -890,7 +890,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

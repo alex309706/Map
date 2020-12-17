@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "njyJ1uYvLIe+JIaB/MMjsSf/7EwftBtgFr5aY++CkvWjYrGFNAFM8EiC15saNYew729+BtBMN/hE0nOH2LpTXw==",
+  "dgSpecHash": "Rqm7REuC9R28CVzkbmDsG9UQnOOCDPXIkly9uncDSc060yg+/bZFU8zrw02cPsN9z01OFDhCWNe1NirAN/wtsA==",
   "success": true,
-  "projectFilePath": "E:\\Саша\\Начало\\Map\\Services.Interfaces\\Services.Interfaces.csproj",
+  "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Services.Interfaces\\Services.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

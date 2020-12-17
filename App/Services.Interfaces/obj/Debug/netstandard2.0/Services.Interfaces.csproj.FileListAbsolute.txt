@@ -22,3 +22,15 @@ E:\Саша\Начало\Map\Services.Interfaces\obj\Debug\netstandard2.0\Servic
 E:\Саша\Начало\Map\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.csproj.CopyComplete
 E:\Саша\Начало\Map\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.dll
 E:\Саша\Начало\Map\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\bin\Debug\netstandard2.0\Services.Interfaces.deps.json
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\bin\Debug\netstandard2.0\Services.Interfaces.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\bin\Debug\netstandard2.0\Services.Interfaces.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\bin\Debug\netstandard2.0\Domain.Core.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\bin\Debug\netstandard2.0\Domain.Core.pdb
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.csprojAssemblyReference.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.csproj.CoreCompileInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.AssemblyInfoInputs.cache
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.AssemblyInfo.cs
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.csproj.CopyComplete
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.dll
+E:\Саша\Учеба\Курсач\Code\Map\App\Services.Interfaces\obj\Debug\netstandard2.0\Services.Interfaces.pdb

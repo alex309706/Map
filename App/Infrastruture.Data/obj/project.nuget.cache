@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VLBtuDGwFkpkeRRHOHhtq+ACANfr51cHeh6G8QDooleoeyFVHR3u3/5iDBTOCaW0x3vjfSdYuWAqfYSjzaWELA==",
+  "dgSpecHash": "5xzDZOMiUkiN+3k4tIQB0Dr8XQjdPWkS9aM+kaCOXsflEHFfkv9Mbw+sRg6bBhj8i80sbH1gxkUZjpiFS2RNaQ==",
   "success": true,
-  "projectFilePath": "E:\\Саша\\Начало\\Map\\Infrastruture.Data\\Infrastructure.Data.csproj",
+  "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastruture.Data\\Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.1.20120.5\\microsoft.win32.registry.5.0.0-preview.1.20120.5.nupkg.sha512",
