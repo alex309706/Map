@@ -19,6 +19,8 @@ namespace Domain.Core
         public Coordinates coord { get; set; }
         
         public string Commander { get; set; }
+        public string type { get; set; }
+
         public Subdivision(double x, double y)
         {
             coord = new Coordinates(x,y);

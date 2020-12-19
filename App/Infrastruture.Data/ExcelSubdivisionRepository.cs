@@ -148,6 +148,8 @@ namespace Infrastructure.Data
                             new_subdiv.coord.X = coordinates_of_city[location].X;
                             new_subdiv.coord.Y = coordinates_of_city[location].Y;
                         }
+
+                        new_subdiv.type = new_subdiv.GetType().Name;
                         //добавление в список подразделений
                         Subdivisions.Add(new_subdiv);
                         //

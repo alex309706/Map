@@ -140,7 +140,7 @@ namespace Infrastructure.Data
                 string two_letters = letter.ToString() + next_letter.ToString();
                 if (two_letters=="  ")
                 {
-                    break;
+                    continue;
                 }
                 new_str += letter;
             }
