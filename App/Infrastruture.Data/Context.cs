@@ -133,7 +133,7 @@ namespace Infrastructure.Data
         private string RemoveSpaces(string str)
         {
             string new_str = string.Empty;
-            for (int i = 0; i < str.Length; i++)
+            for (int i = 0; i < str.Length-1; i++)
             {
                 char letter = str[i];
                 char next_letter = str[i + 1];

@@ -7,6 +7,7 @@ namespace Domain.Core
     //подразделение
     public class Subdivision
     {
+        public int id { get; set; }
         public string Name{ get; set; }
         public string Strength { get; set; }
 

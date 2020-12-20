@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Domain.Core;
 using Interfaces;
-
+using System.Linq;
 
 
 namespace Infrastructure.Data
@@ -52,7 +52,7 @@ namespace Infrastructure.Data
             //Считанные строки из Excel
             List<Dictionary<string, string>> list_of_strings = ctx.List_of_strings;
 
-            //координаты со второго листа
+            //координаты городов
             Dictionary<string, Coordinates> coordinates_of_city = ctx.Coordinates_of_city;
 
             //считанные данные по подразделению
@@ -60,7 +60,8 @@ namespace Infrastructure.Data
 
             //возвращаемый список подразделений
             List<Subdivision> Subdivisions = new List<Subdivision>();
-
+            Random r = new Random();
+            int counter_of_id = 1;
             foreach (Dictionary<string, string> Dictionary in list_of_strings)
             {
                 foreach (KeyValuePair<string, string> kp in Dictionary)
@@ -77,21 +78,33 @@ namespace Infrastructure.Data
                         string location=string.Empty;
                         //добавляемое подразделение в список подразделений
                         Subdivision new_subdiv = new Subdivision(x, y);
+                      
                         switch (key)
                         {
                             case "Расположение штаба:":
                                 if (read_subdiv.ContainsKey("Расположение штаба:"))
                                 {
-                                    new_subdiv = new Army(x, y);
+
+                                   
                                     location= read_subdiv["Расположение штаба:"];
                                     new_subdiv.Location = location;
                                     if (read_subdiv.ContainsKey("Армия:"))
                                     {
+                                        new_subdiv = new Army(x, y);
                                         new_subdiv.Name = read_subdiv["Армия:"];
                                     }
                                     if (read_subdiv.ContainsKey("Состав армии:"))
                                     {
-                                        new_subdiv.Name = read_subdiv["Состав армии:"];
+                                        new_subdiv.Composition = read_subdiv["Состав армии:"];
+                                    }
+                                    if (read_subdiv.ContainsKey("Корпус:"))
+                                    {
+                                        new_subdiv = new Corps(x, y);
+                                        new_subdiv.Name = read_subdiv["Корпус:"];
+                                    }
+                                    if (read_subdiv.ContainsKey("Состав корпуса:"))
+                                    {
+                                        new_subdiv.Composition = read_subdiv["Состав корпуса:"];
                                     }
                                 }
                                 break;
@@ -99,6 +112,7 @@ namespace Infrastructure.Data
                                 if (read_subdiv.ContainsKey("Расположение дивизии:"))
                                 {
                                     new_subdiv = new Division(x, y);
+                                    new_subdiv.Name = read_subdiv["Дивизия:"];
                                     location = read_subdiv["Расположение дивизии:"];
                                     new_subdiv.Location = location;
                                     new_subdiv.Composition = read_subdiv["Состав дивизии:"];
@@ -108,7 +122,8 @@ namespace Infrastructure.Data
                                 if (read_subdiv.ContainsKey("Расположение бригады:"))
                                 {
                                     new_subdiv = new Brigade(x, y);
-                                    location= read_subdiv["Расположение бригады:"];
+                                    new_subdiv.Name = read_subdiv["Бригада:"];
+                                    location = read_subdiv["Расположение бригады:"];
                                     new_subdiv.Location = location;
                                     new_subdiv.Composition = read_subdiv["Состав бригады:"];
                                 }
@@ -145,11 +160,22 @@ namespace Infrastructure.Data
                         //если координаты указаны в таблице, они будут заменены
                         if (coordinates_of_city.ContainsKey(location))
                         {
-                            new_subdiv.coord.X = coordinates_of_city[location].X;
-                            new_subdiv.coord.Y = coordinates_of_city[location].Y;
+                            int count_of_existing_subdivisions = (from s in Subdivisions where s.Location == location select s).Count();
+                            if (count_of_existing_subdivisions>=1)
+                            {
+                                new_subdiv.coord.X = coordinates_of_city[location].X + r.Next(-1,1)*r.NextDouble()+r.Next(-1,1);
+                                new_subdiv.coord.Y = coordinates_of_city[location].Y + r.Next(-1,1)*r.NextDouble() + r.Next(-1, 1);
+                            }
+                            else
+                            {
+                                new_subdiv.coord.X = coordinates_of_city[location].X;
+                                new_subdiv.coord.Y = coordinates_of_city[location].Y;
+                            }
                         }
-
+                        new_subdiv.id = counter_of_id;
+                        counter_of_id++;
                         new_subdiv.type = new_subdiv.GetType().Name;
+
                         //добавление в список подразделений
                         Subdivisions.Add(new_subdiv);
                         //
