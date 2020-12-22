@@ -34,7 +34,13 @@ namespace Infrastructure.Data
 
         public Subdivision GetSubdivision(int id)
         {
-            throw new NotImplementedException();
+            IEnumerable<Subdivision> Subdivisions = GetSubdivisions();
+            Subdivision output = new Subdivision(0,0);
+            if (id < Subdivisions.Count() && id>=0)
+            {
+                output = Subdivisions.First((obj) => obj.id == id);
+            }
+            return output;
         }
 
         public void Save()
