@@ -25,7 +25,6 @@ namespace Domain.Core
         public Subdivision(double x, double y)
         {
             coord = new Coordinates(x,y);
-          
         }
     }
 }

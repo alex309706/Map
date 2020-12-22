@@ -90,10 +90,7 @@ namespace Infrastructure.Data
                             case "Расположение штаба:":
                                 if (read_subdiv.ContainsKey("Расположение штаба:"))
                                 {
-
                                    
-                                    location= read_subdiv["Расположение штаба:"];
-                                    new_subdiv.Location = location;
                                     if (read_subdiv.ContainsKey("Армия:"))
                                     {
                                         new_subdiv = new Army(x, y);
@@ -112,6 +109,8 @@ namespace Infrastructure.Data
                                     {
                                         new_subdiv.Composition = read_subdiv["Состав корпуса:"];
                                     }
+                                    location = read_subdiv["Расположение штаба:"];
+                                    new_subdiv.Location = location;
                                 }
                                 break;
                             case "Расположение дивизии:":
