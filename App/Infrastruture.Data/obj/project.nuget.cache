@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5xzDZOMiUkiN+3k4tIQB0Dr8XQjdPWkS9aM+kaCOXsflEHFfkv9Mbw+sRg6bBhj8i80sbH1gxkUZjpiFS2RNaQ==",
+  "dgSpecHash": "xtqktZUi+Zy/g2F8bllBCTDjdCS8sz5bxaeOfKtF7IRmAE9MYyxAAtyncTCNSQk9ArXCYQdJgsYfthZ3d5gI6Q==",
   "success": true,
   "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastruture.Data\\Infrastructure.Data.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.1.20120.5\\microsoft.win32.registry.5.0.0-preview.1.20120.5.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0-preview.1.20120.5\\system.configuration.configurationmanager.5.0.0-preview.1.20120.5.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.data.oledb\\5.0.0-preview.1.20120.5\\system.data.oledb.5.0.0-preview.1.20120.5.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0-preview.1.20120.5\\system.diagnostics.performancecounter.5.0.0-preview.1.20120.5.nupkg.sha512",

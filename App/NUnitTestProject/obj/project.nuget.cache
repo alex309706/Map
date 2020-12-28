@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JmydgrPR2oQq1V0ml9s/vE7t0Jj+InnJVOfIWjGjg9H5fpAiq8EHDKo2mPUlwqhJiy3PC2tpZyYbyI9Hkkr0iw==",
+  "dgSpecHash": "FLiCY2MnmBeqD6kLmEV/wcus5qJCwnzdYmaGo9PYKRJjq3tHnHkWtvvZT5+sKKkNXIhX7k2dlRKn4CGqvvGg4w==",
   "success": true,
   "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\NUnitTestProject\\NUnitTestProject.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.eventbasedasync\\4.3.0\\system.componentmodel.eventbasedasync.4.3.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",

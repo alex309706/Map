@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+NsAMccztZnls13+L1LQ0r+F8jCymQauj3LksdLuyNTfviZQWj9Yuc01dJl8XaqzaJLsoAJRHpJkIXw9rOc2RA==",
+  "dgSpecHash": "0P8bHBqWD93VwPKB8yOs7wluhsgegQWSGlb33P64qiaXKlTHqUF0smnfaPYZNnVkcKAyky2gQORw99I3LVJGKA==",
   "success": true,
   "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Infrastructure.Business\\Infrastructure.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

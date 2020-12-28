@@ -23,10 +23,17 @@ namespace Web_Api.Controllers
         readonly ISubdivisionRepository repo = new ExcelSubdivisionRepository(@"E:\Саша\Начало\Наполнение\Книга_с_группировкой_(2).xlsx");
         IEnumerable<Subdivision> subd;
         [HttpGet]
-        public IEnumerable<Subdivision> GetSubdivisions()
+        public IEnumerable<Subdivision> Get()
         {
             subd = repo.GetSubdivisions();
             return subd;
         }
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            Subdivision result = repo.GetSubdivision(id);
+            return new ObjectResult(result);
+        }
+
     }
 }

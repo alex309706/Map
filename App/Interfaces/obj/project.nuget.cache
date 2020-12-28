@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kK4dtjvl+VvaJwIAZ6eBrfAJy9w0L/BX9LMp8WS0nuuwjEX6abfrUdhIjNqugCy4KFhZlYMFxQM/7/j9QuqJ6g==",
+  "dgSpecHash": "RNzRby9ozC6LaFNcVsSb+W6N9P3O4hojglv0jZ0f4++8+TB3E+n6CuZ8t1jobdvToTDTtlrAZRTTo71zZo0qPg==",
   "success": true,
   "projectFilePath": "E:\\Саша\\Учеба\\Курсач\\Code\\Map\\App\\Interfaces\\Domain.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZZZ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ZZZ\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ZZZ\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

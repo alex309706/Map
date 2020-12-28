@@ -46,5 +46,3 @@ E:\Саша\Учеба\Курсач\Code\Map\App\Web-Api\obj\Debug\netcoreapp3.1
 E:\Саша\Учеба\Курсач\Code\Map\App\Web-Api\obj\Debug\netcoreapp3.1\Web-Api.pdb
 E:\Саша\Учеба\Курсач\Code\Map\App\Web-Api\obj\Debug\netcoreapp3.1\Web-Api.genruntimeconfig.cache
 E:\Саша\Учеба\Курсач\Code\Map\App\Web-Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-E:\Саша\Учеба\Курсач\Code\Map\App\Web-Api\obj\Debug\netcoreapp3.1\Web-Api.csproj.CoreCompileInputs.cache
-E:\Саша\Учеба\Курсач\Code\Map\App\Web-Api\obj\Debug\netcoreapp3.1\Web-Api.MvcApplicationPartsAssemblyInfo.cache
